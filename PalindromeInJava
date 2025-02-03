@@ -1,0 +1,32 @@
+public class palindrome{
+
+
+   public static void main(String[] args){
+
+     int a = 110011;
+     int num = 0;
+\
+     int copy = a;
+
+    while(copy!=0) {
+
+       num = num*10 + copy%10;  //// 11
+       copy = copy/10;
+
+}
+
+ if(a==num){
+
+  System.out.println("Palindrome");
+
+ }
+
+else{
+
+  System.out.println("Not a Palindrome");
+   
+}
+
+}
+
+}
